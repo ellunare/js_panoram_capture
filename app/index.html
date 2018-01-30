@@ -11,22 +11,35 @@
 
 <body>
 
-	<div class="contentarea">
+	<div class="wrap">
 
 		<div class="camera">
 			<video id="video">Video stream not available.</video>
 			<canvas id="output_c"> </canvas>
 		</div>
 
-		<button id="startbutton">Take photo AAA</button>
+		<br>
+
+		<button id="play" style="display: none">PLAY</button>
+		<button id="stop" style="display: none">STOP</button>
+
+		<br>
+		<br>
 		
-		<button id="play">PLAY</button>
-		<button id="stop">STOP</button>
-		<button id="save">SAVE</button>
-		<a href="" id="saveImg"></a>
+		<a id="startbutton" class="simple_btn">
+			<img src="camera.svg">
+		</a>
+
+		<br>
+		<br>
+		<br>
+
+		<a id="save" class="simple_btn" style="width: 50px">
+			<img src="save.svg">
+		</a>
+		<a id="saveImg"></a>
 
 		<canvas id="input_c"> </canvas>
-
 
 	</div>
 
